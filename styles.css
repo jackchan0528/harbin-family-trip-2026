@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap");
+
+:root {
+  --navy: #0b1c2c;
+  --navy-2: #132736;
+  --ink: #1a2430;
+  --muted: #5a6673;
+  --paper: #f6f1e8;
+  --card: #fffdf8;
+  --gold: #b8873a;
+  --gold-2: #d4a85a;
+  --ice: #d9e8f2;
+  --line: #e4d8c4;
+  --warn: #8a3b16;
+  --warn-bg: #f8efe4;
+  --ok: #1e5a45;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.7;
+}
+img { max-width: 100%; display: block; }
+a { color: #1a4d6e; }
+.wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+
+header.hero {
+  position: relative;
+  min-height: 72vh;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  background: #071018 center/cover no-repeat;
+  background-image: linear-gradient(180deg, rgba(7,16,24,.15) 10%, rgba(7,16,24,.78) 100%), url("images/xuexiang.jpg");
+}
+header.hero .inner { padding: 48px 0 56px; }
+.kicker {
+  letter-spacing: .22em;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--gold-2);
+  margin: 0 0 10px;
+}
+header.hero h1 {
+  font-family: "Noto Serif TC", serif;
+  font-size: clamp(32px, 5vw, 56px);
+  line-height: 1.2;
+  margin: 0 0 14px;
+  font-weight: 700;
+}
+header.hero p { max-width: 38em; margin: 0; font-size: 17px; color: #f0e6d6; }
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(11,28,44,.94);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(212,168,90,.25);
+}
+nav .wrap {
+  display: flex;
+  gap: 8px 22px;
+  flex-wrap: wrap;
+  padding: 12px 0;
+}
+nav a {
+  color: #f3eadc;
+  text-decoration: none;
+  font-size: 14px;
+}
+nav a:hover { color: var(--gold-2); }
+
+section { padding: 56px 0; }
+h2 {
+  font-family: "Noto Serif TC", serif;
+  font-size: 28px;
+  margin: 0 0 8px;
+}
+.lede { color: var(--muted); margin: 0 0 28px; }
+
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--card); }
+table.compare { width: 100%; border-collapse: collapse; min-width: 860px; font-size: 14px; }
+table.compare th, table.compare td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+  text-align: left;
+}
+table.compare th { background: var(--navy); color: #fff; font-weight: 600; }
+table.compare th:first-child, table.compare td:first-child { white-space: nowrap; color: var(--muted); font-weight: 500; background: #f3eee6; }
+table.compare th:first-child { color: #cfe0ea; background: var(--navy-2); }
+table.compare tr:last-child td { border-bottom: 0; }
+.price { font-weight: 700; color: #8a3b16; font-size: 16px; }
+.tbd { color: var(--warn); font-weight: 700; }
+
+.cards { display: grid; gap: 22px; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.card .photo { height: 240px; background: #223 center/cover no-repeat; }
+.card .body { padding: 22px 24px 28px; }
+.card h3 { font-family: "Noto Serif TC", serif; margin: 0 0 4px; font-size: 24px; }
+.meta { color: var(--muted); font-size: 14px; margin: 0 0 16px; }
+.days { display: grid; gap: 12px; }
+.day {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 12px;
+  padding: 12px 0;
+  border-top: 1px dashed var(--line);
+}
+.day strong { color: var(--gold); font-size: 13px; letter-spacing: .04em; }
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 99px;
+  background: var(--ice);
+  color: #1a4d6e;
+  margin-right: 6px;
+}
+.inc, .exc { font-size: 14px; }
+.inc b { color: var(--ok); }
+.exc b { color: var(--warn); }
+
+.flags {
+  background: var(--warn-bg);
+  border: 1px solid #e6c9a8;
+  border-radius: 16px;
+  padding: 8px 8px 16px;
+}
+.flags ol { margin: 8px 0 0; padding-right: 8px; }
+.flags li { margin: 10px 0; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+.gallery figure { margin: 0; background: #000; border-radius: 12px; overflow: hidden; }
+.gallery img { width: 100%; height: 180px; object-fit: cover; }
+.gallery figcaption { font-size: 12px; color: #eee; padding: 8px 10px 12px; background: var(--navy); }
+
+footer {
+  background: var(--navy);
+  color: #c9d4dc;
+  padding: 32px 0 48px;
+  font-size: 13px;
+}
+footer h2 { color: #fff; font-size: 18px; }
+footer a { color: #e8d5a8; }
+
+@media (max-width: 700px) {
+  .day { grid-template-columns: 1fr; gap: 4px; }
+  header.hero { min-height: 62vh; }
+}

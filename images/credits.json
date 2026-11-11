@@ -1,0 +1,81 @@
+{
+  "sophia": {
+    "title": "File:Saint Sophia Cathedral, Harbin 1.jpg",
+    "artist": "闫恩铭 / Enming Yan",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Sophia_Cathedral,_Harbin_1.jpg",
+    "bytes": 573319
+  },
+  "central-street": {
+    "title": "File:Central Street (Zhongyang Dajie), Harbin 16.jpg",
+    "artist": "闫恩铭 / Enming Yan",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Central_Street_(Zhongyang_Dajie),_Harbin_16.jpg",
+    "bytes": 549243
+  },
+  "ice-world": {
+    "title": "File:Harbin ice and snow world, temple.jpg",
+    "artist": "indiekate2",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Harbin_ice_and_snow_world,_temple.jpg",
+    "bytes": 722290
+  },
+  "xuexiang": {
+    "title": "File:Morning in China Snow Town.jpg",
+    "artist": "Chen Wu",
+    "license": "CC BY 2.0",
+    "credit": "https://www.flickr.com/photos/nodust/4457199152/",
+    "page": "https://commons.wikimedia.org/wiki/File:Morning_in_China_Snow_Town.jpg",
+    "bytes": 1007330
+  },
+  "tianchi": {
+    "title": "File:ESC large ISS006 ISS006-E-43366.JPG",
+    "artist": "NASA",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:ESC_large_ISS006_ISS006-E-43366.JPG",
+    "bytes": 910046
+  },
+  "jingpo": {
+    "title": "File:Jingpo Lake Winter.jpg",
+    "artist": "Kelly Zhang120",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jingpo_Lake_Winter.jpg",
+    "bytes": 162414
+  },
+  "yanji": {
+    "title": "File:Baili City, Yanji 3.jpg",
+    "artist": "EditQ",
+    "license": "CC BY-SA 4.0",
+    "credit": "Own work",
+    "page": "https://commons.wikimedia.org/wiki/File:Baili_City,_Yanji_3.jpg",
+    "bytes": 748067
+  },
+  "xuexiang-2": {
+    "title": "File:Morning in China Snow Town.jpg",
+    "artist": "Chen Wu",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Morning_in_China_Snow_Town.jpg",
+    "bytes": 1007330
+  },
+  "ice-world-2": {
+    "title": "File:Snow and Ice World festival in Harbin, China (3237678193).jpg",
+    "artist": "Rincewind42 from China",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Snow_and_Ice_World_festival_in_Harbin,_China_(3237678193).jpg",
+    "bytes": 477300
+  },
+  "jingpo-sunset": {
+    "title": "File:Sunset of Jingpo Lake in Heilongjiang Province, China.jpg",
+    "artist": "Kelly Zhang120",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunset_of_Jingpo_Lake_in_Heilongjiang_Province,_China.jpg",
+    "bytes": 151054
+  },
+  "yabuli": {
+    "title": "File:Yabuli Ski Resort.jpg",
+    "artist": "Cameraton Cleric",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Yabuli_Ski_Resort.jpg",
+    "bytes": 729103
+  }
+}
