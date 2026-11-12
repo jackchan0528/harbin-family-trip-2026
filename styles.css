@@ -568,7 +568,9 @@ body[data-length="7"] .view-5days { display: none; }
 html:has(#len-7:checked) .view-7days,
 body[data-length="7"] .view-7days { display: block; }
 
-table.compare.compare-7 { min-width: 1280px; }
+table.compare.compare-7 { min-width: 1440px; }
+
+#yueyue7 { margin-bottom: 24px; }
 
 /* Other length (6-day) reference, not in either board */
 .other-length {
