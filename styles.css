@@ -183,7 +183,7 @@ h2 {
 }
 .bar-fill.est {
   background: repeating-linear-gradient(-45deg, #9a6a1c, #9a6a1c 7px, #b8873a 7px, #b8873a 14px);
-  width: calc(8340 / 14298 * 100%);
+  width: calc(8400 / 14298 * 100%);
   color: #fff;
 }
 .bar-fill.low { background: #0d7a52; width: calc(8340 / 14298 * 100%); }
@@ -252,7 +252,7 @@ table.compare {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  min-width: 1540px;
+  min-width: 1800px;
   font-size: 13.5px;
 }
 table.compare th, table.compare td {
@@ -416,6 +416,7 @@ table.breakdown .hint { display: block; color: var(--muted); font-size: 12px; fo
 #tab-xixi5:checked ~ .tab-labels label[for="tab-xixi5"],
 #tab-xiaoqin:checked ~ .tab-labels label[for="tab-xiaoqin"],
 #tab-xiaoxu:checked ~ .tab-labels label[for="tab-xiaoxu"],
+#tab-ahua:checked ~ .tab-labels label[for="tab-ahua"],
 #tab-yaoyao:checked ~ .tab-labels label[for="tab-yaoyao"],
 #tab-yueyue:checked ~ .tab-labels label[for="tab-yueyue"],
 #tab-xixi6:checked ~ .tab-labels label[for="tab-xixi6"] {
@@ -427,6 +428,7 @@ table.breakdown .hint { display: block; color: var(--muted); font-size: 12px; fo
 #tab-xixi5:checked ~ .tab-panels #panel-xixi5,
 #tab-xiaoqin:checked ~ .tab-panels #panel-xiaoqin,
 #tab-xiaoxu:checked ~ .tab-panels #panel-xiaoxu,
+#tab-ahua:checked ~ .tab-panels #panel-ahua,
 #tab-yaoyao:checked ~ .tab-panels #panel-yaoyao,
 #tab-yueyue:checked ~ .tab-panels #panel-yueyue,
 #tab-xixi6:checked ~ .tab-panels #panel-xixi6 { display: block; }
