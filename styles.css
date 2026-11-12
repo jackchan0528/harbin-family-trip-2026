@@ -183,11 +183,11 @@ h2 {
 }
 .bar-fill.est {
   background: repeating-linear-gradient(-45deg, #9a6a1c, #9a6a1c 7px, #b8873a 7px, #b8873a 14px);
-  width: calc(8940 / 11779 * 100%);
+  width: calc(8940 / 12279 * 100%);
   color: #fff;
 }
-.bar-fill.mid { background: #1e5a45; width: calc(9060 / 11779 * 100%); }
-.bar-fill.mid2 { background: #3f5f7a; width: calc(10089 / 11779 * 100%); }
+.bar-fill.mid { background: #1e5a45; width: calc(9060 / 12279 * 100%); }
+.bar-fill.mid2 { background: #3f5f7a; width: calc(10089 / 12279 * 100%); }
 .bar-fill.high { background: #7a2430; width: 100%; }
 .bar-amt { font-weight: 700; font-size: 15px; white-space: nowrap; }
 .bar-amt.est { color: var(--warn); }
