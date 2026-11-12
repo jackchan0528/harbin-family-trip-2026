@@ -183,18 +183,22 @@ h2 {
 }
 .bar-fill.est {
   background: repeating-linear-gradient(-45deg, #9a6a1c, #9a6a1c 7px, #b8873a 7px, #b8873a 14px);
-  width: calc(8340 / 12279 * 100%);
+  width: calc(8340 / 14298 * 100%);
   color: #fff;
 }
-.bar-fill.low { background: #0d7a52; width: calc(8340 / 12279 * 100%); }
-.bar-fill.mid { background: #1e5a45; width: calc(9060 / 12279 * 100%); }
-.bar-fill.mid2 { background: #3f5f7a; width: calc(10089 / 12279 * 100%); }
+.bar-fill.low { background: #0d7a52; width: calc(8340 / 14298 * 100%); }
+.bar-fill.mid { background: #1e5a45; width: calc(9060 / 14298 * 100%); }
+.bar-fill.mid2 { background: #3f5f7a; width: calc(10089 / 14298 * 100%); }
+.bar-fill.mid3 { background: #6b4a28; width: calc(12279 / 14298 * 100%); }
+.bar-fill.yue4 { background: #8a3a42; width: calc(13536 / 14298 * 100%); }
 .bar-fill.high { background: #7a2430; width: 100%; }
 .bar-amt { font-weight: 700; font-size: 15px; white-space: nowrap; }
 .bar-amt.est { color: var(--warn); }
 .bar-amt.low { color: var(--ok); }
 .bar-amt.mid { color: var(--ok); }
 .bar-amt.mid2 { color: #2c4a62; }
+.bar-amt.mid3 { color: #6b4a28; }
+.bar-amt.yue4 { color: #8a3a42; }
 .bar-amt.high { color: var(--no); }
 .no-bar {
   grid-column: 2 / -1;
