@@ -200,6 +200,15 @@ h2 {
 .bar-amt.mid3 { color: #6b4a28; }
 .bar-amt.yue4 { color: #8a3a42; }
 .bar-amt.high { color: var(--no); }
+.bar-fill.d7-est {
+  background: repeating-linear-gradient(-45deg, #9a6a1c, #9a6a1c 7px, #b8873a 7px, #b8873a 14px);
+  width: calc(11400 / 14172 * 100%);
+  color: #fff;
+}
+.bar-fill.d7-xu { background: #3f5f7a; width: 100%; }
+.bar-amt.d7-est { color: var(--warn); }
+.bar-amt.d7-xu { color: #2c4a62; }
+
 .no-bar {
   grid-column: 2 / -1;
   font-size: 13px;
